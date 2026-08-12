@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="index.php" method="POST">
+        <label for="username">username:</label>
+        <input type="text" id="username" placeholder="Enter your Name" minlength="6" maxlength="15" required><br>
+
+        <label for="password">password:</label>
+        <input type="password" id="password" placeholder="password" minlength="6" maxlength="15" required><br>
+
+        <label for="gmail">email:</label>
+        <input type="gmail" id="gmail" placeholder="Enter your gmail" minlength="6" maxlength="15" required><br>
+
+        <!-- <label for="password">pas</label>
+        <input type="text" id="username" placeholder="Enter your Name" minlength="6" maxlength="15" required><br>
+
+        <label for="password">password</label>
+        <input type="text" id="username" placeholder="Enter your Name" minlength="6" maxlength="15" pattern="[0-9]{3}" required><br> -->
+
+        <label for="phone">phone #:</label>
+        <input type="tel" id="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0,9]{3}-[0,9]{4}"><br>
+
+        <label for="bday">birthday:</label>
+        <input type="date" id="bday"><br>
+
+        <!-- 1.number min = "0" max ="99" value="1"
+         2. radio--
+         3.checkbox>
+        
+        <label for="payment" >payment</label>
+        <select id="payment">
+            <option value="UPI">UPI</option>
+            <option value="Cash">Cash</option>
+            <option value="Cards">Cards</option>
+        </select>
+
+
+        <input type="reset">
+        <input type="submit">
+
+    </form>
+</body>
+
+</html>
